@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disasters BD - Affected Areas & Rescue Routes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: darkred;
+        }
+        .affected-area {
+            background-color: #ffe6e6;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .rescue-routes {
+            background-color: #e6ffe6;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+        blockquote {
+            background-color: #f9f9f9;
+            border-left: 10px solid #ccc;
+            margin: 1em 0;
+            padding: 0.5em 10px;
+            font-style: italic;
+        }
+        mark {
+            background-color: yellow;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <!-- Page Header -->
+    <header>
+        <h1>Disasters BD - Affected Areas & Rescue Routes</h1>
+        <p><strong>Natural disasters</strong> are a harsh reality for many regions of Bangladesh. Below, we provide an overview of the affected areas and rescue routes. Stay informed, stay safe.</p>
+    </header>
+
+    <!-- Affected Areas Section -->
+    <section>
+        <h2>Disaster-Affected Areas</h2>
+        <div class="affected-area">
+            <h3>Area 1: <mark>Cox's Bazar</mark></h3>
+            <p>The <b>Cyclone Mora</b> heavily impacted <strong>Cox's Bazar</strong>, leaving many displaced.</p>
+            <blockquote>
+                "The devastation was widespread, and immediate action was required to save lives." 
+                – <i>Local Authority</i>
+            </blockquote>
+            <!-- Image of Affected Area -->
+            <img src="https://example.com/coxs-bazar-cyclone.jpg" alt="Cyclone-affected area in Cox's Bazar">
+            <p><small>Last updated: <ins>September 8, 2024</ins></small></p>
+        </div>
+
+        <div class="affected-area">
+            <h3>Area 2: <mark>Sylhet</mark></h3>
+            <p>Severe flooding continues to affect the <b>Sylhet</b> region. Many roads are submerged, disrupting transportation and communication.</p>
+            <img src="https://example.com/sylhet-floods.jpg" alt="Flooded streets in Sylhet">
+            <p><small>Last updated: <ins>September 5, 2024</ins></small></p>
+        </div>
+
+        <div class="affected-area">
+            <h3>Area 3: <mark>Khulna</mark></h3>
+            <p>The powerful <em>Cyclone Amphan</em> caused significant damage in <strong>Khulna</strong>, with relief efforts ongoing.</p>
+            <img src="https://example.com/khulna-cyclone.jpg" alt="Cyclone damage in Khulna">
+            <p><small>Last updated: <ins>September 2, 2024</ins></small></p>
+        </div>
+    </section>
+
+    <!-- Rescue Routes Section -->
+    <section>
+        <h2>Rescue Routes</h2>
+        <div class="rescue-routes">
+            <h3>Route 1: Cox's Bazar to Chittagong</h3>
+            <p>Rescue teams are using the <a href="https://example.com/route-cox-chittagong" target="_blank">Cox's Bazar-Chittagong Highway</a> for aid transportation.</p>
+        </div>
+
+        <div class="rescue-routes">
+            <h3>Route 2: Sylhet to Dhaka</h3>
+            <p>Operations are active along the <a href="https://example.com/route-sylhet-dhaka" target="_blank">Sylhet-Dhaka Road</a>, which has reopened after severe flooding.</p>
+        </div>
+
+        <div class="rescue-routes">
+            <h3>Route 3: Khulna to Jessore</h3>
+            <p>The <a href="https://example.com/route-khulna-jessore" target="_blank">Khulna-Jessore Route</a> is a major rescue path after the cyclone disaster in Khulna.</p>
+        </div>
+    </section>
+
+    <!-- Table Section with Rowspan and Colspan -->
+    <section>
+        <h2>Emergency Contact Information</h2>
+        <table>
+            <tr>
+                <th rowspan="2">City</th>
+                <th colspan="2">Contact Numbers</th>
+            </tr>
+            <tr>
+                <th>Emergency</th>
+                <th>Rescue Teams</th>
+            </tr>
+            <tr>
+                <td>Cox's Bazar</td>
+                <td>109</td>
+                <td>+8801712345678</td>
+            </tr>
+            <tr>
+                <td>Sylhet</td>
+                <td>110</td>
+                <td>+8801712345679</td>
+            </tr>
+            <tr>
+                <td>Khulna</td>
+                <td>111</td>
+                <td>+8801712345680</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Lists Section -->
+    <section>
+        <h2>Essential Items for Rescue Teams</h2>
+        <h3>Ordered List (Top Priority)</h3>
+        <ol>
+            <li>Medical Kits</li>
+            <li>Food Supplies</li>
+            <li>Water Purifiers</li>
+            <li>Rescue Boats</li>
+        </ol>
+
+        <h3>Unordered List (Secondary Items)</h3>
+        <ul>
+            <li>Blankets</li>
+            <li>Tents</li>
+            <li>Emergency Lights</li>
+            <li>GPS Devices</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p><small>&copy; 2024 Disasters BD. All rights reserved. For additional information, visit our <a href="https://example.com" target="_blank">website</a>.</small></p>
+    </footer>
+  
+</body>
+</html>
